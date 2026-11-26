@@ -2,6 +2,11 @@
 
 A Dux Modular Shell (DMS) bar plugin for Bose headphones, built on the [bosectl](https://github.com/aaronsb/bosectl) library. No Bose app, no cloud.
 
+<p>
+  <img src="docs/popout.png" alt="Popout with modes, noise cancellation, spatial audio and the equalizer" width="380">
+  <img src="docs/settings.png" alt="Settings window with device settings and custom modes" width="430">
+</p>
+
 - **Bar:** headphones icon with the headset's battery. Dimmed when no headset is connected.
 - **Popout:** mode (presets and custom modes), noise cancellation, active noise cancelling, wind block, spatial audio and the three-band EQ.
 - **Device settings window** (tune icon in the popout header): name, sidetone, multipoint, auto-pause, firmware and turn off.
@@ -25,3 +30,7 @@ dms ipc call plugins enable boseHeadphones
 Then add "Bose Headphones" to a bar in the bar's widget editor.
 
 Requires `python3` and `bluetoothctl`. Only tested with the QuietComfort Ultra Headphones (2nd Gen).
+
+## License
+
+MIT, see [LICENSE](LICENSE). The bosectl library in `lib/bosectl` has its own MIT license.
