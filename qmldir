@@ -1,0 +1,8 @@
+singleton BoseService 1.0 BoseService.qml
+BoseDetailWindow 1.0 BoseDetailWindow.qml
+SettingRow 1.0 SettingRow.qml
+EqualizerCurve 1.0 EqualizerCurve.qml
+ChoiceChips 1.0 ChoiceChips.qml
+BoseToggle 1.0 BoseToggle.qml
+Section 1.0 Section.qml
+CustomModes 1.0 CustomModes.qml

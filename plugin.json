@@ -1,0 +1,14 @@
+{
+    "id": "boseHeadphones",
+    "name": "Bose Headphones",
+    "description": "Battery, modes, noise cancellation and EQ for Bose headphones, with a window for device settings",
+    "version": "0.1.0",
+    "author": "Daan van der Meulen",
+    "type": "widget",
+    "capabilities": ["dankbar-widget"],
+    "component": "./BoseWidget.qml",
+    "icon": "headphones",
+    "requires_dms": ">=2.0.0",
+    "requires": ["python3", "bluetoothctl"],
+    "permissions": []
+}
