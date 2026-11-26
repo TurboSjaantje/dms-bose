@@ -22,7 +22,7 @@ A Dux Modular Shell (DMS) bar plugin for Bose headphones, built on the [bosectl]
 ## Install
 
 ```bash
-git clone --recurse-submodules -b dms-plugin https://github.com/TurboSjaantje/dms-bose.git ~/programming/personal/dms-bose
+git clone --recurse-submodules https://github.com/TurboSjaantje/dms-bose.git ~/programming/personal/dms-bose
 ln -sfn ~/programming/personal/dms-bose ~/.config/DankMaterialShell/plugins/boseHeadphones
 dms ipc call plugins enable boseHeadphones
 ```
